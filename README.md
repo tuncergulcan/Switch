@@ -1,19 +1,24 @@
 ### Three State Switch
-## js
+## javascript
 
  function filterme(val){
- if (val == 1){
+ 
+   if (val == 1){
+   
        $('#RangeFilter').removeClass('rangeAll').removeClass('rangePassive').addClass('rangeActive');
        $("span").text("Active");
     } 
     else if (val == 2){
+    
         $('#RangeFilter').removeClass('rangeActive').removeClass('rangePassive').addClass('rangeAll');
         $("span").text("All");
     } 
     else if(val==3){
+    
        $('#RangeFilter').removeClass('rangeAll').removeClass('rangeActive').addClass('rangePassive');
-        $("span").text("Passive");
+       $("span").text("Passive");
     }
+    
  }
 
 

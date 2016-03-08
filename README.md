@@ -21,6 +21,13 @@
     
  }
 
+### HTML
+< p class="range-field" style=" width:60px">
+ < input type="range" id="RangeFilter" name="points" onchange="filterme(this.value);" min="1" class="rangeAll" max="3" value="2" ></ p>
+ 
+ < span > All </ span >
+ 
+ 
 
 ### Browser Compatibility
 

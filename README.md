@@ -1,6 +1,7 @@
-# Triple Switch
+### Three State Switch
 
 ### Browser Compatibility
+
  /* Crome*/
 .rangeActive::-webkit-slider-thumb { background-color: #4caf50 !important;}
 .rangeAll::-webkit-slider-thumb { background-color: #6F6F6F !important;}

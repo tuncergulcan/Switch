@@ -1,4 +1,4 @@
-### Three State Switch
+# Three State Switch
 ## javascript
 
     function filterme(val) {
